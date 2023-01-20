@@ -1,3 +1,4 @@
+import 'package:email_verification_using_otp/Screens/Splash.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/Home.dart';
@@ -12,12 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Otp Verification Using Email',
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: const Home(),
+      home: const Splash(),
     );
   }
 }
