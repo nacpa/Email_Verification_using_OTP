@@ -26,7 +26,9 @@ class  RecievedOtpEvent extends OtpEvent{
 
 
 class VerifyOtpEvent extends OtpEvent{
+  int Otp;
   @override
   // TODO: implement props
   List<Object?> get props =>[];
+  VerifyOtpEvent({required this.Otp});
 }
