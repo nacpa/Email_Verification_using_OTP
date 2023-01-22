@@ -8,7 +8,6 @@ class RequestOtpEvent extends OtpEvent{
   String Email;
   RequestOtpEvent({required this.Email});
   @override
-  // TODO: implement props
   List<Object?> get props =>[];
 
 
@@ -19,14 +18,16 @@ class RequestOtpEvent extends OtpEvent{
 
 class  RecievedOtpEvent extends OtpEvent{
   @override
-  // TODO: implement props
+ 
   List<Object?> get props =>[];
 }
 
 
 
 class VerifyOtpEvent extends OtpEvent{
+  int Otp;
   @override
-  // TODO: implement props
+ 
   List<Object?> get props =>[];
+  VerifyOtpEvent({required this.Otp});
 }

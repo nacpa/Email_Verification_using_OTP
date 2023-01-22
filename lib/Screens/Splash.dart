@@ -23,8 +23,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
         AnimationController(vsync: this, duration: const Duration(seconds: 3))
           ..forward().whenComplete(() async{
 
-         // await   init();
-        // await    Get.find<CartController>().cartItem();
+         
       Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()))
         ;});
     animation =
